@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hogwart academy</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.5.0/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">Hogwart</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Courses</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="features" class="mt-3 container d-none d-md-block">
+        <div
+          id="carouselFeatures"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselFeatures"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselFeatures"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselFeatures"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselFeatures"
+              data-bs-slide-to="3"
+              aria-label="Slide 4"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="assets/images/carousel1.png"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption">
+                <h5>ٍSuccess Path</h5>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Harum dicta ducimus molestiae, eos quaerat nemo rem mollitia
+                  iusto quos corporis nihil debitis repellendus optio hic, esse
+                  ipsa architecto soluta libero?
+                </p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img
+                src="assets/images/carousel2.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption">
+                <h5>Different Learning Resources</h5>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+                  quae corrupti eius, voluptas aliquid, explicabo amet
+                  distinctio ea corporis laboriosam sint beatae temporibus. Vel
+                  beatae repellendus, unde quis laborum quo!
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="assets/images/carousel3.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption">
+                <h5>Different Facilities</h5>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Atque corrupti eos assumenda dolor harum impedit eum autem
+                  minima voluptatibus ipsa? Laboriosam nemo commodi inventore
+                  voluptatem, officiis distinctio modi mollitia voluptas?
+                </p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img
+                src="assets/images/carousel4.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption">
+                <h5>Help and Supports</h5>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Voluptatum adipisci fugiat illo asperiores. Repudiandae,
+                  necessitatibus ad aliquam repellat minus porro dolores
+                  suscipit praesentium harum quae alias fugiat quam. Aperiam,
+                  veritatis!
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselFeatures"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselFeatures"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+
+      <section class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h1>Hogwart</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
+              voluptates vel, voluptas dicta optio esse molestias aspernatur,
+              saepe delectus eveniet mollitia, at distinctio dolor quasi quis
+              unde maxime quaerat necessitatibus?
+            </p>
+            <button class="btn btn-primary">Join us</button>
+          </div>
+          <div class="col-md-6">
+            <img
+              src="assets/images/hogwart.jpg"
+              alt="hogwart castle"
+              class="castle-img"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <div
+                class="card-header d-flex justify-content-center align-items-center"
+              >
+                <img src="assets/images/clock.svg" alt="clock" />
+              </div>
+              <div
+                class="card-body d-flex flex-column justify-content-center align-items-center text-center"
+              >
+                <h2>Adaptative schedule</h2>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Deserunt repudiandae dolore tenetur voluptas corrupti aut
+                  aliquid ea totam, sed voluptatum ad est, harum, officiis
+                  accusantium sint dolorem! Adipisci, corrupti inventore.
+                </p>
+                <button class="btn btn-primary">See schedule</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div
+                class="card-header d-flex justify-content-center align-items-center"
+              >
+                <img src="assets/images/book.svg" alt="books" />
+              </div>
+              <div
+                class="card-body d-flex flex-column justify-content-center align-items-center text-center"
+              >
+                <h2>A lot of ressources</h2>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Beatae maiores molestiae consequatur fuga rem voluptatum vel
+                  nobis sit adipisci. Facere adipisci non nesciunt excepturi
+                  dolor nostrum pariatur illo doloribus in.
+                </p>
+                <button class="btn btn-primary">Discover our ressources</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div
+                class="card-header d-flex justify-content-center align-items-center"
+              >
+                <img src="assets/images/cup.svg" alt="cup" />
+              </div>
+              <div
+                class="card-body d-flex flex-column justify-content-center align-items-center text-center"
+              >
+                <h2>Competitions</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Officia, est aspernatur excepturi perspiciatis nam quos
+                  eligendi. Officia harum, provident molestiae voluptate hic, et
+                  non porro aut ut nobis sed accusantium.
+                </p>
+                <button class="btn btn-primary">Join a competition</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container">
+        <div class="row mb-4">
+          <div class="col-md-6 d-flex flex-column justify-content-center">
+            <h2>Theorical learning</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+              nec odio. Praesent libero. Sed cursus ante dapibus diam.
+            </p>
+            <button class="btn btn-primary">
+              Theoretical learning details
+            </button>
+          </div>
+          <div
+            class="col-md-6 d-flex justify-content-center align-items-center"
+          >
+            <img
+              src="assets/images/theorical.jpg"
+              alt="Description Image 1"
+              class="img-fluid"
+            />
+          </div>
+        </div>
+
+        <div class="row">
+          <div
+            class="col-md-6 d-flex justify-content-center align-items-center"
+          >
+            <img
+              src="assets/images/pratical.jpeg"
+              alt="Description Image 2"
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-md-6 d-flex flex-column justify-content-center">
+            <h2>Pratical learning</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+              nec odio. Praesent libero. Sed cursus ante dapibus diam.
+            </p>
+            <button class="btn btn-primary">Pratical learning details</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="container">
+        <h2 class="text-center">Our professors</h2>
+        <h6 class="text-center">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+          voluptatem, quidem, quod, quos dolorum quae voluptates quia
+          necessitatibus, doloremque quibusdam nemo. Quisquam, quidem, quod,
+          quos dolorum quae voluptates quia necessitatibus, doloremque quibusdam
+          nemo.
+        </h6>
+
+        <div class="row">
+          <div class="col-md-6 col-lg-3">
+            <div class="card">
+              <img
+                src="assets/images/rogue.jpg"
+                class="professor-img"
+                alt="professor snape"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Severus Snape</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+                  ex, animi iste nihil repellendus nam esse aperiam earum vitae
+                  culpa voluptatem voluptate odit aliquam error et id a fuga
+                  molestiae.
+                </p>
+                <div class="d-flex justify-content-center gap-2">
+                  <a href="#" class="btn btn-secondary">
+                    <i class="bi-linkedin"></i>
+                  </a>
+                  <a href="#" class="btn btn-secondary">
+                    <i class="bi-instagram"></i>
+                  </a>
+                  <a href="#" class="btn btn-secondary">
+                    <i class="bi-facebook"></i>
+                  </a>
+                  <a href="#" class="btn btn-secondary">
+                    <i class="bi-twitter"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="card">
+              <img
+                src="assets/images/dumbledore.jpg"
+                class="professor-img"
+                alt="professor dumbledore"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Albus Dumbledore</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id,
+                  assumenda odio labore similique itaque at quo sunt.
+                  Repudiandae corrupti placeat maiores excepturi eligendi illo
+                  temporibus amet ducimus vel inventore? Voluptas?
+                </p>
+                <div class="d-flex justify-content-center gap-2">
+                  <a href="#" class="btn btn-secondary">
+                    <i class="bi-linkedin"></i>
+                  </a>
+                  <a href="#" class="btn btn-secondary">
+                    <i class="bi-instagram"></i>
+                  </a>
+                  <a href="#" class="btn btn-secondary">
+                    <i class="bi-facebook"></i>
+                  </a>
+                  <a href="#" class="btn btn-secondary">
+                    <i class="bi-twitter"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="card">
+              <img
+                src="assets/images/mcgonagall.jpg"
+                class="professor-img"
+                alt="professor mcgonagall"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Minerva McGonagall</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                  illo veniam voluptatum nobis, veritatis molestiae, eum fuga
+                  repellat animi aliquam nam necessitatibus temporibus eaque
+                  sunt? Molestias esse assumenda ipsam quos.
+                </p>
+                <div class="d-flex justify-content-center gap-2">
+                  <a href="#" class="btn btn-secondary">
+                    <i class="bi-linkedin"></i>
+                  </a>
+                  <a href="#" class="btn btn-secondary">
+                    <i class="bi-instagram"></i>
+                  </a>
+                  <a href="#" class="btn btn-secondary">
+                    <i class="bi-facebook"></i>
+                  </a>
+                  <a href="#" class="btn btn-secondary">
+                    <i class="bi-twitter"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="card">
+              <img
+                src="assets/images/flitwick.jpeg"
+                class="professor-img"
+                alt="professor flitwick"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Filius Flitwick</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. A
+                  consequatur quam atque saepe aperiam dicta excepturi. Nobis,
+                  recusandae ipsam! Facilis expedita illo, laborum a neque sunt
+                  sapiente minus ducimus commodi.
+                </p>
+                <div class="d-flex justify-content-center gap-2">
+                  <a href="#" class="btn btn-secondary">
+                    <i class="bi-linkedin"></i>
+                  </a>
+                  <a href="#" class="btn btn-secondary">
+                    <i class="bi-instagram"></i>
+                  </a>
+                  <a href="#" class="btn btn-secondary">
+                    <i class="bi-facebook"></i>
+                  </a>
+                  <a href="#" class="btn btn-secondary">
+                    <i class="bi-twitter"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="faq">
+        <div class="container">
+          <h2 class="text-center">Frequently Asked Questions</h2>
+          <div class="accordion" id="accordFAQ">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  What I will learn?
+                </button>
+              </h2>
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse show"
+                aria-labelledby="headingOne"
+                data-bs-parent="#accordFAQ"
+              >
+                <div class="accordion-body">
+                  <p>
+                    You will learn the essentials to be a perfect wizard going
+                    from the theory to the practice.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                  Should I have any experience before joining this program
+                </button>
+              </h2>
+              <div
+                id="collapseTwo"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingTwo"
+                data-bs-parent="#accordFAQ"
+              >
+                <div class="accordion-body">
+                  <p>
+                    No need, as this program is designed to take you from A to
+                    Z. It is a complete program from the beginning of middle
+                    school to the end of highschool with special arrangements if
+                    you come during these years.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                >
+                  Can I take this program in the weekends only?
+                </button>
+              </h2>
+              <div
+                id="collapseThree"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingThree"
+                data-bs-parent="#accordFAQ"
+              >
+                <div class="accordion-body">
+                  <p>
+                    No, you have to come during the whole scholar year and can
+                    go back home during holidays.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFour">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour"
+                  aria-expanded="false"
+                  aria-controls="collapseFour"
+                >
+                  Can I use PC or MAC computer
+                </button>
+              </h2>
+              <div
+                id="collapseFour"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingFour"
+                data-bs-parent="#accordFAQ"
+              >
+                <div class="accordion-body">
+                  <p>
+                    We don't even know why you ask this question. How will you
+                    practice magic ? Surely not with your terminal (even if
+                    sometimes things happens in it).
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="mt-3 container">
+        <div class="row">
+          <div class="col-md-6">
+            <h2 class="text-center">Get in touch</h2>
+            <form>
+              <div class="mb-3">
+                <label for="fullName" class="form-label">Full Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="fullName"
+                  aria-describedby="fullNameHelp"
+                />
+                <div id="fullNameHelp" class="form-text">
+                  Write your full name to be used when we contact you.
+                </div>
+              </div>
+
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label"
+                  >Email address</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                />
+                <div id="emailHelp" class="form-text">
+                  We'll never share your email with anyone else. Even the
+                  ministry of magic. :)
+                </div>
+              </div>
+
+              <div class="mb-3">
+                <label for="messageTextarea" class="form-label">
+                  Your Message
+                </label>
+                <textarea
+                  class="form-control"
+                  aria-label="Your Message"
+                  id="messageTextarea"
+                >
+                </textarea>
+              </div>
+
+              <div class="mb-3 form-check">
+                <input
+                  type="checkbox"
+                  class="form-check-input"
+                  id="exampleCheck1"
+                />
+                <label class="form-check-label" for="exampleCheck1">
+                  Receive an update about our new courses! (No spam, we promise)
+                </label>
+              </div>
+
+              <div class="mb-3 form-check">
+                <input
+                  type="checkbox"
+                  class="form-check-input"
+                  id="exampleCheck2"
+                />
+                <label class="form-check-label" for="exampleCheck2">
+                  Receive the news by owl post
+                </label>
+              </div>
+
+              <button type="submit" class="btn btn-primary">
+                Send Message
+              </button>
+            </form>
+          </div>
+
+          <div class="col-md-6">
+            <h2 class="text-center">Contact Info</h2>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item my-2">
+                <span class="fw-bold">Our Location:</span>
+                Somewhere in Scoland (moggles don't need to know)
+              </li>
+
+              <li class="list-group-item my-2">
+                <span class="fw-bold">Dumbledore personal contact:</span>
+                You really believed you could have it ?!
+              </li>
+
+              <li class="list-group-item my-2">
+                <span class="fw-bold">Rusard contact:</span>
+                Please don't contact me (Rusard).
+              </li>
+
+              <li class="list-group-item my-2">
+                <span class="fw-bold">General Enquiry Email:</span>
+                Just send an owl to the school
+              </li>
+
+              <li class="list-group-item my-2">
+                <span class="fw-bold">Registration Email:</span>
+                We will send you a letter by owl post if you can join. For
+                application, please send a letter to the school (by owl of
+                course).
+              </li>
+            </ul>
+
+            <div class="text-center mt-3">
+              <a href="#" class="btn btn-secondary">
+                <i class="bi-linkedin"></i>
+              </a>
+              <a href="#" class="btn btn-secondary">
+                <i class="bi-instagram"></i>
+              </a>
+              <a href="#" class="btn btn-secondary">
+                <i class="bi-facebook"></i>
+              </a>
+              <a href="#" class="btn btn-secondary">
+                <i class="bi-twitter"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,162 @@
+/*Q1*/
+* {
+  margin: 0;
+}
+/*Q2*/
+body {
+  color: rgb(140, 41, 41);
+  background-image: url(../Assets/images/dark-wood1.jpg);
+  font-family: "Arial", "Helvetica", "Verdena", sans-serif;
+  display: flex; /*Q3*/
+  justify-content: center; /*Q3*/
+  align-items: center; /*Q3*/
+}
+/*Q3*/
+.container {
+  width: 950px;
+  margin: 5px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 212, 187);
+}
+/*Q4*/
+.content {
+  line-height: 1.4em;
+  padding: 10px;
+}
+/*Q5*/
+header,
+nav,
+footer {
+  background-color: rgb(140, 69, 41);
+  color: rgb(255, 226, 226);
+}
+/*Q6*/
+nav ul {
+  margin: 0;
+  padding: 5px;
+  list-style-type: none;
+  display: flex; /*Q7*/
+}
+/*Q7*/
+nav ul li {
+  margin-right: 40px;
+  text-transform: uppercase;
+}
+/*Q8*/
+nav ul li a:link {
+  color: rgb(255, 226, 226);
+}
+nav ul li a:visited {
+  color: rgb(196, 125, 67);
+}
+nav ul li a:hover {
+  color: rgb(25, 34, 133);
+}
+nav ul li a:active {
+  color: rgb(183, 0, 0);
+}
+/*Q9*/
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+/*Q10*/
+h1,
+h2,
+h3 {
+  margin: 10px;
+  text-transform: uppercase;
+}
+h1,
+h2 {
+  color: rgba(34, 55, 40, 0.871);
+}
+h3 {
+  color: rgb(77, 41, 41, 0.7);
+}
+/*Q11*/
+.img-center {
+  display: block;
+  margin: 5px auto;
+  padding: 2px;
+  width: 700px;
+  height: auto;
+}
+/*Q12*/
+audio,
+video {
+  display: block;
+  margin: 10px auto;
+}
+/*Q13*/
+table {
+  border: solid 1px rgb(140, 41, 41);
+  border-collapse: collapse;
+  width: 800px;
+  margin: 10px auto;
+}
+/*Q14*/
+th,
+td {
+  border: solid 1px rgb(140, 41, 41);
+  padding: 2px 5px;
+  background-color: rgb(255, 246, 241);
+}
+/*Q15*/
+table th,
+tfoot td {
+  text-transform: uppercase;
+  background-color: rgb(200, 149, 129);
+  color: rgb(255, 255, 255);
+}
+tfoot td {
+  text-align: center;
+}
+/*Q16*/
+dt {
+  font-weight: bold;
+}
+/*Q17*/
+footer {
+  font-size: 80%;
+  text-align: center;
+  padding: 1px 0;
+}
+/*Q18*/
+iframe {
+  display: block;
+  margin: 10px auto;
+}
+/*Q19*/
+fieldset {
+  width: 500px;
+  margin: 20px auto;
+  border: 1px solid rgb(0, 0, 0);
+  background-color: rgb(255, 246, 241);
+}
+/*Q20*/
+legend {
+  font-style: italic;
+  color: rgb(249, 241, 238);
+  background-color: rgb(77, 41, 41, 0.7);
+  margin: 0 10px;
+  padding: 0 5px;
+  border-radius: 10px;
+}
+/*Q21*/
+button[type="submit"] {
+  border: 1px solid rgb(140, 41, 41);
+  padding: 5px;
+  color: rgb(249, 241, 238);
+  background-color: rgb(77, 41, 41, 0.7);
+  border-radius: 20px;
+}
+/*Q22*/
+button[type="submit"]:hover {
+  background-color: rgb(140, 41, 41);
+  color: rgb(255, 0, 0);
+  cursor: pointer;
+}

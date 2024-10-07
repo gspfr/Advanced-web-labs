@@ -1,0 +1,25 @@
+body {
+  padding-top: 56px;
+}
+.castle-img {
+  width: 550px;
+  height: auto;
+}
+
+.card-icon {
+  margin: 0 auto;
+}
+
+.professor-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.carousel-item img {
+  width: 700px;
+  height: 650px;
+  object-fit: cover;
+}
