@@ -1,6 +1,8 @@
 body {
   padding-top: 56px;
+  padding-bottom: 30px;
 }
+
 .castle-img {
   width: 550px;
   height: auto;
