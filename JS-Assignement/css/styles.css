@@ -16,6 +16,68 @@ body {
   justify-content: space-between;
 }
 
+body.dark-theme {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+body.dark-theme header,
+body.dark-theme ul li a,
+body.dark-theme .themes input[type="button"],
+body.dark-theme footer {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+body.dark-theme form,
+body.dark-theme #output,
+body.dark-theme #result,
+body.dark-theme input[type="reset"],
+body.dark-theme button {
+  border: 1px solid rgb(0, 0, 0);
+}
+
+body.dark-theme .themes input[type="button"] {
+  border: 1px solid rgb(255, 255, 255);
+}
+
+body.dark-theme button:hover,
+body.dark-theme input[type="reset"]:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+body.warm-theme {
+  background-color: #e9e1d3;
+  color: #c92d1f;
+}
+
+body.warm-theme header,
+body.warm-theme ul li a,
+body.warm-theme .themes input[type="button"],
+body.warm-theme footer {
+  background-color: #c92d1f;
+  color: #e9e1d3;
+}
+
+body.warm-theme form,
+body.warm-theme #output,
+body.warm-theme #result,
+body.warm-theme input[type="reset"],
+body.warm-theme button {
+  border: 1px solid #c92d1f;
+}
+
+body.warm-theme .themes input[type="button"] {
+  border: 1px solid #e9e1d3;
+}
+
+body.warm-theme button:hover,
+body.warm-theme input[type="reset"]:hover {
+  background-color: #c92d1f;
+  color: #e9e1d3;
+}
+
 main {
   display: flex;
   flex-direction: column;
@@ -28,8 +90,6 @@ header {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  background-color: rgb(0, 0, 0);
-  color: rgb(255, 255, 255);
   padding: 20px;
 }
 
@@ -42,7 +102,6 @@ header ul {
 }
 
 header ul li a {
-  color: rgb(255, 255, 255);
   text-decoration: none;
 }
 
@@ -51,9 +110,6 @@ header ul li a {
 }
 
 .themes input[type="button"] {
-  background-color: rgb(0, 0, 0);
-  color: rgb(255, 255, 255);
-  border: 1px solid rgb(255, 255, 255);
   padding: 5px;
   border-radius: 8px;
 }
@@ -62,19 +118,26 @@ footer {
   width: 100%;
   text-align: center;
   padding: 20px;
-  background-color: rgb(0, 0, 0);
-  color: rgb(255, 255, 255);
 }
 
 form,
 #output,
 #result {
-  border: 1px solid rgb(0, 0, 0);
   padding: 20px;
   border-radius: 20px;
   width: 500px;
 }
 
+form button {
+  margin-top: 15px;
+}
+
 .hidden {
   display: none;
+}
+
+input[type="reset"],
+button {
+  padding: 5px;
+  border-radius: 8px;
 }

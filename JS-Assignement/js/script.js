@@ -71,3 +71,24 @@ const calculateButton = document.getElementById("calculate");
 if (calculateButton) {
   calculateButton.addEventListener("click", myExcelFuns);
 }
+
+const resetButton = document.getElementById("reset");
+if (resetButton) {
+  resetButton.addEventListener("click", () => {
+    document.getElementById("output").style.display = "none";
+  });
+}
+
+document
+  .getElementById("dark-theme-btn")
+  .addEventListener("click", function () {
+    document.body.classList.add("dark-theme");
+    document.body.classList.remove("warm-theme");
+  });
+
+document
+  .getElementById("warm-theme-btn")
+  .addEventListener("click", function () {
+    document.body.classList.add("warm-theme");
+    document.body.classList.remove("dark-theme");
+  });
