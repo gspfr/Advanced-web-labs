@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vue project</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@3/dist/vue.global.js"></script>
+    <link rel="stylesheet" href="/css/main.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Vue project</h1>
+    </header>
+
+    <div id="app">
+      <h1>{{mainHeading}}</h1>
+
+      <div class="card-container">
+        <div class="card">
+          <div class="card-front" :class="{active: !isFlipped}">
+            <div class="card-content">
+              <img
+                :src="items[index].image"
+                alt="Image for {{ items[index].title }}"
+              />
+
+              <div class="card-text">
+                <h2>{{items[index].title}}</h2>
+                <button @click="isFlipped = !isFlipped">Learn more</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-back" :class="{active: isFlipped}">
+            <div class="card-content">
+              <img
+                :src="items[index].image"
+                alt="Image for {{ items[index].title }}"
+              />
+
+              <div class="card-text">
+                <p>{{items[index].description}}</p>
+                <button @click="isFlipped = !isFlipped">Go back</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="navigation">
+        <button @click="move(-1)" :disabled="index === 0">Previous</button>
+        <button @click="move(1)" :disabled="index === items.length - 1">
+          Next
+        </button>
+      </div>
+    </div>
+
+    <footer>
+      <p>&copy; 2024 - Vue project - Gabriel Sautière</p>
+    </footer>
+
+    <script type="module">
+      import { items } from "./data/index.js";
+      console.log(items);
+
+      const javaPackagesApp = {
+        data() {
+          return {
+            mainHeading: "The sports that I practice",
+            items,
+            isFlipped: false,
+            index: 0,
+          };
+        },
+        methods: {
+          move(change) {
+            if (this.items[this.index + change]) {
+              this.index += change;
+              this.isFlipped = false;
+            }
+          },
+        },
+      };
+      Vue.createApp(javaPackagesApp).mount("#app");
+    </script>
+  </body>
+</html>
