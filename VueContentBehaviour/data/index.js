@@ -27,4 +27,18 @@ export const items = [
     image:
       "https://hips.hearstapps.com/hmg-prod/images/running-is-one-of-the-best-ways-to-stay-fit-royalty-free-image-1036780592-1553033495.jpg?resize=640:*",
   },
+  {
+    title: "Volleyball",
+    description:
+      "Volleyball is a team sport in which two teams of six players are separated by a net. Each team tries to score points by grounding a ball on the other team's court under organized rules.",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Brasil_vence_a_Fran%C3%A7a_no_v%C3%B4lei_masculino_1037987-15.08.2016_ffz-6369.jpg/1200px-Brasil_vence_a_Fran%C3%A7a_no_v%C3%B4lei_masculino_1037987-15.08.2016_ffz-6369.jpg",
+  },
+  {
+    title: "Bouldering",
+    description:
+      "Bouldering is a form of rock climbing that is performed on small rock formations or artificial rock walls without the use of ropes or harnesses.",
+    image:
+      "https://imgs.search.brave.com/YcE-u7cr8EsdtCUA2XI8YVWfafHihvKv1aHm4mg8W28/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvNTcz/MTA1NjUzL3Bob3Rv/L2F0aGxldGVzLWNs/aW1iaW5nLXJvY2st/d2FsbC1pbi1neW0u/anBnP3M9NjEyeDYx/MiZ3PTAmaz0yMCZj/PUpqTGx6LTA5elFJ/ZlV4Q0VES05qWUpZ/QVVrb1ozLVl6Q0lk/MmlaXzJ5bW89",
+  },
 ];
