@@ -32,6 +32,10 @@ footer {
   justify-content: center;
 }
 
+.card-container {
+  box-shadow: 10px 10px 8px 0 rgba(0, 0, 0, 0.315);
+}
+
 .card {
   border: 1px solid black;
   border-radius: 5px;
@@ -39,6 +43,7 @@ footer {
   flex-direction: column;
   align-items: center;
   width: 700px;
+  background-color: white;
 }
 
 .card img {
@@ -70,8 +75,7 @@ footer {
 }
 
 button {
-  margin: 10px;
-  padding: 10px;
+  padding: 10px 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -82,4 +86,10 @@ button {
 button:disabled {
   background-color: grey;
   cursor: not-allowed;
+}
+
+.navigation {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
 }
