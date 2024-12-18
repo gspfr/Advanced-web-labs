@@ -12,3 +12,6 @@ For the pratical test, I don't have any live demo as it is only a node server. S
 
 Click here to see the [Vue demo](https://gspfr.github.io/Advanced-web-labs/VueContentBehaviour/index.html) live demo.
 
+Click here to see the [Vue Website](https://gspfr.github.io/Advanced-web-labs/VueWebsite/index.html) live demo.
+
+
